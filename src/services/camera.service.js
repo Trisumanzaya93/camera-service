@@ -67,7 +67,7 @@ export function startStream(req, res) {
     "-loglevel", "quiet",
     "-f", "v4l2",
     "-input_format", "mjpeg",
-    "-video_size", "640x480",
+    "-video_size", "1280x720",
     "-framerate", "30",
     "-i", CAMERA_DEVICE,
     "-f", "mjpeg",
